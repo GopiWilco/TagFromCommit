@@ -15,6 +15,7 @@ namespace Test.Controllers
 
         public HomeController(ILogger<HomeController> logger)   
         {
+		// Commit 2
             _logger = logger;
         }
 
