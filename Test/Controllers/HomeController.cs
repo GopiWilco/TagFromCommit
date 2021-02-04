@@ -16,14 +16,12 @@ namespace Test.Controllers
         public HomeController(ILogger<HomeController> logger)   
         {
 		// Commit 2
+		// Commit 3
             _logger = logger;
         }
 
         public IActionResult Index()
         {
-
-            Commit 2 
-                Commit 3 Master
             return View();
         }
 
